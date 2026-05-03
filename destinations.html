@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Destinations | NU Consultants</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top-bar" aria-label="Contact information">
+    <div class="top-bar__container">
+      <a class="top-bar__item" href="tel:+9242111128128" aria-label="Call us">
+        <span class="top-bar__icon">☎</span>
+        <span>Tel: (042) 111 128 128</span>
+      </a>
+      <a class="top-bar__item" href="mailto:admissions.lhr@nu.edu.pk" aria-label="Email us">
+        <span class="top-bar__icon">✉</span>
+        <span>Email: admissions.lhr@nu.edu.pk</span>
+      </a>
+      <a
+        class="top-bar__item top-bar__location"
+        href="https://www.google.com/maps/search/?api=1&query=Block-B%2C+Faisal+Town%2C+Lahore"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="View location on Google Maps"
+      >
+        <span class="top-bar__icon">📍</span>
+        <span>Block-B, Faisal Town, Lahore.</span>
+      </a>
+    </div>
+  </header>
+
+  <nav class="main-nav" aria-label="Main navigation">
+    <div class="main-nav__container">
+      <a class="main-nav__brand" href="index.html" aria-label="NU Home">
+        <span class="main-nav__brand-mark">NU</span>
+        <span class="main-nav__brand-text">NU CONSULTANTS</span>
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="main-nav__toggle">
+      <label for="menu-toggle" class="main-nav__hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="main-nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="offices.html">Our Offices</a></li>
+        <li class="has-dropdown">
+          <a href="destinations.html">Study Destinations</a>
+          <ul class="nav-dropdown">
+            <li><a href="#uk">UK</a></li>
+            <li><a href="#usa">USA</a></li>
+            <li><a href="#australia">Australia</a></li>
+            <li><a href="#canada">Canada</a></li>
+            <li><a href="#malaysia">Malaysia</a></li>
+            <li><a href="#germany">Germany</a></li>
+            <li><a href="#turkey">Turkey</a></li>
+            <li><a href="#new-zealand">New Zealand</a></li>
+            <li><a href="#uae">UAE</a></li>
+            <li><a href="#sweden">Sweden</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="destinations-hero" aria-label="Destinations hero section">
+    <h1 class="destinations-hero__title">Destinations</h1>
+  </section>
+
+  <main class="destinations-main">
+    <section class="destinations-grid" aria-label="Country destinations">
+      <a id="uk" class="destination-card" href="apply.html?country=uk" style="--bg:url('https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">UK</span>
+      </a>
+      <a id="usa" class="destination-card" href="apply.html?country=usa" style="--bg:url('https://images.unsplash.com/photo-1485738422979-f5c462d49f74?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">USA</span>
+      </a>
+      <a id="australia" class="destination-card" href="apply.html?country=australia" style="--bg:url('https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">Australia</span>
+      </a>
+      <a id="canada" class="destination-card" href="apply.html?country=canada" style="--bg:url('https://images.unsplash.com/photo-1503614472-8c93d56e92ce?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">Canada</span>
+      </a>
+      <a id="malaysia" class="destination-card" href="apply.html?country=malaysia" style="--bg:url('https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">Malaysia</span>
+      </a>
+      <a id="germany" class="destination-card" href="apply.html?country=germany" style="--bg:url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">Germany</span>
+      </a>
+      <a id="turkey" class="destination-card" href="apply.html?country=turkey" style="--bg:url('https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">Turkey</span>
+      </a>
+      <a id="new-zealand" class="destination-card" href="apply.html?country=new-zealand" style="--bg:url('https://images.unsplash.com/photo-1469521669194-babb45599def?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">New Zealand</span>
+      </a>
+      <a id="uae" class="destination-card" href="apply.html?country=uae" style="--bg:url('https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">UAE</span>
+      </a>
+      <a id="sweden" class="destination-card" href="apply.html?country=sweden" style="--bg:url('https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=1200&q=80');">
+        <span class="destination-card__apply">Apply Now</span>
+        <span class="destination-card__label">Sweden</span>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
